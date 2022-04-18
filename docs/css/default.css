@@ -45,3 +45,135 @@ table {
 }
 
 /*END RESET CODE*/
+
+html {
+    background-color: #000000;
+    color: #000000;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+}
+
+ol, ul {
+    list-style: none;
+}
+
+#whole {
+    width: 975px;
+    position: relative;
+    font-family: 'Arimo', sans-serif;
+    font-size: 13px;
+    background: none;
+    background-color: #FFFFFF;
+    min-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    display: block;
+    min-height: 40px;
+    position: relative;
+    width: 975px;
+}
+
+#sidebar {
+    width: 120px;
+    float: right;
+    word-wrap: break-word;
+}
+
+#logo {
+    outline: none;
+    margin-bottom: 0.75em;
+}
+
+#label-name-location {
+    margin: 0 0 1em;
+}
+
+#label-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 3px;
+    display: block;
+}
+
+#location {
+    display: block;
+    margin-bottom: 30px;
+}
+
+#bio {
+    display: block;
+}
+
+#maincontent {
+    padding: 35px 30px 45px;
+}
+
+#bar {
+    text-transform: lowercase;
+    list-style: none;
+    line-height: 36px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 2px 15px 0;
+}
+
+#bar a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2px 15px 0;
+    line-height: 36px;
+}
+
+#bar li {
+    display:inline-block;
+    margin: 0 4px 0 0;
+}
+
+#left-middle {
+    width: 782px;
+    float: left;
+}
+
+#left-middle ol {
+    display: block;
+}
+
+#left-middle li {
+    display: inline-block;
+    position: relative;
+    margin: 0 26px 30px 0;
+    vertical-align: top;
+    width: 232px;
+}
+
+#left-middle table {
+    width: 232px;
+    margin-top: 3px;
+}
+
+.title-artist {
+    vertical-align: top;
+}
+
+.IA-BC {
+    width: 67.7;
+}
+
+.art img {
+    width: 232px;
+    max-width: 100%;
+    height: auto;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 108%;
+    margin: 0.7em 0 0.3em 0;
+}
